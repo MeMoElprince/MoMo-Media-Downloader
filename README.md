@@ -30,8 +30,5 @@ Welcome to My Media Downloader, your all-in-one solution for easily downloading 
 
 ## Contribution
 
-If you have suggestions for improvements or encounter any issues, feel free to contribute or report them in the [Issues](link-to-issues) section.
+If you have suggestions for improvements or encounter any issues, feel free to contact us.
 
-## License
-
-This project is licensed under the [MIT License](link-to-license). Feel free to use and modify the code according to your needs.
