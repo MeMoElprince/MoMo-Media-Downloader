@@ -107,8 +107,10 @@ function handleErrorMessage(){
     }else{
       Error.classList.add('hidden');
       // 12 start
-      let str = input.value.substring(12);
-      if(str===Supported.youtube || str===Supported.facebook || str===Supported.instagram){
+      let str1 = input.value.substring(12,24);
+      let str2 = input.value.substring(12,25);
+      let str3 = input.value.substring(12,26);
+      if(str1===Supported.youtube || str2===Supported.facebook || str3===Supported.instagram){
         Error.classList.add('hidden');
       }else{
         Error.textContent = Languages[Lang.textContent].error.urlwrong;
