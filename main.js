@@ -4,6 +4,7 @@ const Main = document.getElementById('main');
 const Lang = document.querySelector('.lang');
 const btns = document.querySelectorAll('.btns');
 const Error = document.querySelector('.error');
+const country = document.querySelector('.country');
 
 const list = document.querySelector('ul');
 const span = document.querySelector('span');
@@ -141,3 +142,6 @@ btns.forEach(el=>{
 
 
 // handle fetch country flag
+fetch('http://ip-api.com/json/?fields=61439')
+.then(Response=>Response.json())
+.then(data=>country.textContent=data.country);
