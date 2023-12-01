@@ -18,7 +18,7 @@ Welcome to MoMo Media Downloader, your all-in-one solution for easily downloadin
 
 3. **Download:** Click the download button and get your media content instantly.
 
-## Why Choose My Media Downloader?
+## Why Choose MoMo Media Downloader?
 
 - **Efficiency:** Save time and effort with a straightforward and efficient download process.
 
