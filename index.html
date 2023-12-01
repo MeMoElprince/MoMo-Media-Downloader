@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MoMo Downloader</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <main class="black" id="main">
+    <nav>
+      <div class="country"><p>country</p></div>
+      <div class="title"><h1>MoMo Media Downloader</h1></div>
+      <div class="settings">
+        <div class="view">
+          <i id="themeicon" class="fa-solid fa-sun" style="color: #ffdd00;"></i>
+        </div>
+        <div><p class="lang">EN</p></div>
+      </div>
+    </nav>
+    <div class="errorcontainer">
+      <div class="error hidden">Pleace select quality for your video!</div>
+    </div>
+    <section>
+      <div class="Link">
+        <input type="text" id="url" placeholder="URL here.....">
+      </div>
+      <div class="sported">
+        <span>Supported</span>
+        <ul>
+          <li>Youtube</li>
+          <li>Facebook</li>
+          <li>Instagram</li>
+        </ul>
+      </div>
+      <div class="download">
+        <button id="downloadbtn">Donwload</button>
+      </div>
+    </section>
+    <footer>
+      <button class="btns">360p</button>
+      <button class="btns">480p</button>
+      <button class="btns">720p</button>
+      <button class="btns">1080p</button>
+    </footer>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>

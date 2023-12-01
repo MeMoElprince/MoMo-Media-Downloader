@@ -1,0 +1,11 @@
+{
+  "name":"MoMo Media Downloader",
+  "version":"1.0.0",
+  "description":"An extension that helps you download any video from (youtube-facebook-instagram)",
+  "manifest_version":3,
+  "author":"Mustafa Hazem & Moemen Adam",
+  "action":{
+    "default_popup": "index.html",
+    "default_title": "MoMo Media Downloader"
+  }
+}

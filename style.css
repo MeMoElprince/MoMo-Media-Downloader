@@ -1,0 +1,134 @@
+:root{
+  --mainColor:black;
+  --mainTextColor:white;
+  --mainWidth:500px;
+  --mainHeight:fit-content;
+  --mainPadding:20px;
+  --btnsColor:rgb(101, 44, 179);
+  --DonwloadColor:rgb(12, 167, 137);
+  --InputColor:rgb(44, 153, 238);
+  --btnsWidth:100px;
+  --btnsHeight:50px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+::placeholder {
+  color: black;
+  font-weight: bold;
+}
+
+/* // main Styles */
+main{
+  width: var(--mainWidth);
+  height: var(--mainHeight);
+  padding: var(--mainPadding);
+  background-color: var(--mainColor);
+  color: var(--mainTextColor);
+  user-select: none;
+}
+  /* // white mode */
+  .white{
+    --mainColor : white;
+    --mainTextColor:black;
+    --btnsColor:rgb(206, 231, 65);
+    --DonwloadColor:rgb(12, 167, 137);
+    --InputColor:rgb(44, 153, 238);
+  }
+  .arabic{
+    direction: rtl;
+  }
+
+/* error message style */
+.errorcontainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.error{
+  width: fit-content;
+  padding: 10px;
+  text-align: center;
+  color: red;
+  font-weight: bolder;
+}
+.hidden{
+  display: none;
+}
+/* // Nav Styles */
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--mainPadding);
+}
+.settings{
+  display: flex;
+  gap: 10px;
+}
+
+.view:hover,.lang:hover{
+  cursor: pointer;
+}
+/* // Section Styles */
+
+section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--mainPadding);
+}
+section .sported{
+  display: flex;
+  align-items: center;
+  gap:30px;
+}
+section input{
+  background-color:var(--InputColor);
+  border: none;
+  outline: none;
+  width: calc(2*var(--btnsWidth) - 2*var(--mainPadding));
+  padding: var(--mainPadding);
+  height: calc(var(--btnsHeight) - 2*var(--mainPadding));
+  color: var(--mainTextColor);
+}
+section button{
+  background-color: var(--DonwloadColor);
+}
+
+/* // Footer Styles */
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--mainPadding);
+  
+}
+footer button{
+  background-color: var(--btnsColor);
+}
+
+/* // all Btns Styles */
+
+button{
+  width: var(--btnsWidth);
+  height: var(--btnsHeight);
+  outline: none;
+  border: none;
+  color: var(--mainTextColor);
+  transition: 0.3s all;
+}
+
+.choosen{
+  background-color: gray;
+  scale: 1.2;
+}
+
+button:hover{
+  cursor: pointer;
+  scale: 1.2;
+}
