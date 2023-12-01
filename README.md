@@ -12,13 +12,11 @@ Welcome to MoMo Media Downloader, your all-in-one solution for easily downloadin
 
 ## How to Use
 
-1. **Select Platform:** Choose the platform from which you want to download media content.
+1. **Paste URL:** Simply paste the URL of the video or image you wish to download.
 
-2. **Paste URL:** Simply paste the URL of the video or image you wish to download.
+2. **Choose Quality:** Select the desired quality for your download.
 
-3. **Choose Quality:** Select the desired quality for your download.
-
-4. **Download:** Click the download button and get your media content instantly.
+3. **Download:** Click the download button and get your media content instantly.
 
 ## Why Choose My Media Downloader?
 
